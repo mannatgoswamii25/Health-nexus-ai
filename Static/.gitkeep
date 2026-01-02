@@ -1,1 +1,78 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+/* Header / Titles */
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3498db;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #2c3e50;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="file"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Dashboard Links */
+.dashboard-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard-links a {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.dashboard-links a:hover {
+    background-color: #2980b9;
+}
